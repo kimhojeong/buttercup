@@ -52,6 +52,10 @@ em,
 cite {
   font-style: normal;
 }
+address {
+  font-style: normal;
+  font-weight: normal;
+}
 .fr {
   float: right;
 }
@@ -75,7 +79,6 @@ span.more {
 }
 #wrap {
   width: 100%;
-  outline: 1px solid #F00;
   background-image: url(../images/bg_top.jpg);
   background-repeat: no-repeat;
   background-position: top;
@@ -84,7 +87,6 @@ span.more {
   width: 1000px;
   height: 120px;
   margin: 0 auto;
-  outline: 1px solid #00F;
 }
 #wrap header .menu h1 {
   font-size: 0;
@@ -149,6 +151,48 @@ span.more {
   font-size: 15px;
   color: #464646;
 }
+footer {
+  width: 100%;
+  height: 139px;
+  border-top: 1px solid #e1e1e1;
+  background: #323232;
+  margin-top: 30px;
+}
+footer .footer_inner {
+  width: 1000px;
+  margin: 0 auto;
+  position: relative;
+}
+footer .footer_inner h2 {
+  position: absolute;
+  left: 1px;
+  top: 20px;
+}
+footer .footer_inner .olive_add {
+  position: absolute;
+  left: 220px;
+  top: 35px;
+}
+footer .footer_inner .olive_add address {
+  font-size: 13px;
+  color: #ACACAC;
+  line-height: 1.5;
+}
+footer .footer_inner .olive_add p {
+  font-size: 13px;
+  color: #ACACAC;
+  line-height: 1.5;
+}
+footer .footer_inner .olive_add p em {
+  color: #FFFFFF;
+  font-weight: bold;
+}
+footer .footer_inner .btn_top {
+  position: absolute;
+  right: 0;
+  top: 40px;
+  cursor: pointer;
+}
 html,
 body {
   width: 100%;
@@ -157,18 +201,15 @@ body {
 #wrap section {
   width: 1200px;
   margin: 0 auto;
-  outline: 1px solid #000;
 }
 #wrap section .contents {
   width: 1000px;
   height: 530px;
-  outline: 1px solid #00F;
   margin: 40px auto 0;
 }
 #wrap section .contents .left_con {
   width: 350px;
   height: 530px;
-  outline: 1px solid #000;
 }
 #wrap section .contents .left_con .con_work {
   width: 348px;
@@ -201,7 +242,6 @@ body {
 #wrap section .contents .left_con .con_pic {
   width: 348px;
   height: 228px;
-  outline: 1px solid #000;
 }
 #wrap section .contents .left_con .con_pic .pic_title h2 {
   font-size: 18px;
@@ -261,4 +301,94 @@ body {
 #wrap section .contents .right_con {
   width: 625px;
   height: 530px;
+}
+#wrap section .contents .right_con .con_first {
+  width: 320px;
+  height: 208px;
+  background-image: url(../images/bg_con2.jpg);
+  background-repeat: no-repeat;
+  background-position: center;
+}
+#wrap section .contents .right_con .con_first a {
+  display: block;
+  width: 320px;
+  height: 208px;
+  box-sizing: border-box;
+  padding: 22px 30px;
+}
+#wrap section .contents .right_con .con_first h2 {
+  font-size: 18px;
+  color: #464646;
+}
+#wrap section .contents .right_con .con_first h2 em {
+  color: #e62129;
+  font-weight: bold;
+}
+#wrap section .contents .right_con .con_first p {
+  font-size: 14px;
+  color: #7d7d7d;
+  margin-top: 8px;
+}
+#wrap section .contents .right_con .con_first span.more_red {
+  border-bottom: 2px solid #e83037;
+  margin-top: 10px;
+}
+#wrap section .contents .right_con .con_second {
+  width: 268px;
+  height: 208px;
+  margin-left: 25px;
+  background-image: url(../images/naver_logo.jpg);
+  background-repeat: no-repeat;
+  background-position: 99px 153px;
+}
+#wrap section .contents .right_con .con_second a {
+  display: block;
+  width: 268px;
+  height: 208px;
+  box-sizing: border-box;
+  padding: 30px;
+}
+#wrap section .contents .right_con .con_second a em {
+  font-size: 16px;
+  color: #252525;
+  display: block;
+  margin-top: 8px;
+  font-weight: bold;
+}
+#wrap section .contents .right_con .con_second a p {
+  font-size: 14px;
+  color: #7D7D7D;
+  margin-top: 2px;
+}
+#wrap section .contents .right_con .con_second a span.more_green {
+  border-bottom: 2px solid #2db400;
+  margin-top: 35px;
+}
+#wrap section .contents .right_con .con_third {
+  width: 623px;
+  height: 268px;
+  background-image: url(../images/bg_rcon3.jpg);
+  background-repeat: no-repeat;
+  background-position: right bottom;
+  clear: both;
+}
+#wrap section .contents .right_con .con_third .con_third_rolling {
+  width: 565px;
+  height: 200px;
+  position: relative;
+  margin: 22px auto;
+  overflow: hidden;
+}
+#wrap section .contents .right_con .con_third .con_third_rolling h2 {
+  font-size: 18px;
+  color: #464646;
+}
+#wrap section .contents .right_con .con_third .con_third_rolling h2 em {
+  color: #0b50ac;
+  font-weight: bold;
+}
+#wrap section .contents .right_con .con_third .con_third_rolling p {
+  font-size: 14px;
+  color: #7D7D7D;
+  margin-top: 10px;
 }
